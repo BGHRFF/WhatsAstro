@@ -1,4 +1,4 @@
-FROM astrouserbot/whatsastro:latest
+FROM bghrff/whatsastro:latest
 
 RUN git clone https://github.com/BGHRFF/WhatsAstro /root/WhatsAstro
 WORKDIR /root/WhatsAstro/
