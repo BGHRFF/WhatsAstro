@@ -362,7 +362,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                         command.pattern.test(text_msg))))) {
 
                     let sendMsg = false;
-                    var chat = WhatsvCN.chats.get(msg.key.remoteJid)
+                    var chat = WhatsAstroCN.chats.get(msg.key.remoteJid)
                         
                     if ((config.SUDO !== false && msg.key.fromMe === false && command.fromMe === true &&
                         (msg.participant && config.SUDO.includes(',') ? config.SUDO.split(',').includes(msg.participant.split('@')[0]) : msg.participant.split('@')[0] == config.SUDO || config.SUDO.includes(',') ? config.SUDO.split(',').includes(msg.key.remoteJid.split('@')[0]) : msg.key.remoteJid.split('@')[0] == config.SUDO)
