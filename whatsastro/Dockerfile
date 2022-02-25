@@ -1,4 +1,4 @@
-FROM bghrff/whatsastro:latest
+FROM cyberuserbot/whatscyber:latest
 
 RUN git clone https://github.com/BGHRFF/WhatsAstro /root/WhatsAstro
 WORKDIR /root/WhatsAstro/
