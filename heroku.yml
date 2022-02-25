@@ -1,0 +1,5 @@
+build:
+  docker:
+      worker: /whatsastro/Dockerfile
+run:
+   worker: npm start

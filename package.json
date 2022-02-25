@@ -1,0 +1,40 @@
+{
+  "name": "WhatsAstro",
+  "version": "1.0",
+  "description": "WhatsAstro project - a Whatsapp userbot helping to improve your Whatsapp experience.",
+  "main": "./WhatsAstro/bot.js",
+  "scripts": {
+    "start": "supervisor -s bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BGHRFF/WhatsAstro.git"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "ai",
+    "astro",
+    "api",
+    "unlimited",
+    "astrodev",
+    "machine learning",
+    "automatic",
+    "whatsapp web",
+    "whatsapp api",
+    "WhatsAstro"
+  ],
+  "author": "BGHRFF",
+  "developer": "AstroDev",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "https://github.com/BGHRFF/WhatsAstro#readme",
+  "dependencies": {
+    "WhatsAstro-npm": "git+https://github.com/BGHRFF/WhatsAstro-npm.git",
+    "@adiwajshing/baileys": "^3.5.2",
+    "chalk": "^4.1.2",
+    "translatte": "3.0.1"
+  }
+}
